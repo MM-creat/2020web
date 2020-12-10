@@ -16,7 +16,7 @@ let myImage = documents.querySelector('img');
 myButton.onclick = function() {
   let mySrc = myImage.getAttribute('src');
       
-  if(mySrc || 'imges/firefox-icon.png') {
+  if(mySrc === 'imges/firefox-icon.png') {
     myImage.setAttribute('src','images/firefox2.png');
   } else {
     myImage.setAttribute('src','images/firefox-icon.png');

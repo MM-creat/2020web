@@ -12,7 +12,6 @@ myButton.onclick = function() {
      setUserName();
 }
    
-
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {

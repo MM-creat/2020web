@@ -11,9 +11,9 @@ myButton.onclick = function() {
      setUserName();
 }
 
-let myImage = documents.querySelector('img');
+let myImage = document.querySelector('img');
 
-myButton.onclick = function() {
+myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
       
   if(mySrc === 'images/firefox-icon.png') {
